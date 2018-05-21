@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'TruenoLt';
+    src: url('../fonts/TruenoLt.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'myriadpro-regular';
+    src: url('../fonts/MyriadPro/myriadpro-regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'TruenoSBd';
+    src: url('../fonts/trueno/TruenoSBd.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'TruenoBd';
+    src: url('../fonts/trueno/TruenoBd.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@import "header_nav";
+@import "header";
+@import "main_content";
+
+
+$copinc: #ff7373;
+
+@mixin btn{
+width: 100px;
+height: 100px;
+background: red;
+}

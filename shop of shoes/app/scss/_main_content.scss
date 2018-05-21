@@ -1,0 +1,148 @@
+.clerfix{
+  float: none;
+  clear: both;
+}
+
+.main_discription{
+  height: 1900px;
+}
+.main_discription{
+  width: 1200px;
+  height: 1000px;
+  margin: auto;
+  margin-top: 650px;
+}
+.main_discription_top_left_shoes{
+  width: 500px;
+  height: 500px;
+  background-image: url(../img/shoe_third_2.png);
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  position: relative;
+  float: left;
+  z-index: 10;
+  .main_discription_top_left_shoes_add{
+    width: 25px;
+    height: 70px;
+    background-image: url(../img/shoe_third_add.png);
+    background-position: 10px 0px;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: -25px;
+    z-index: 1;
+  }
+}
+.main_discription_top_left_shoes_button{
+  outline: none;
+  width: 250px;
+  height: 50px;
+  background: white;
+  border: 1px solid #4bd8cd;
+  color: white;
+  background:#4bd8cd;
+  font-family: 'TruenoBd';
+  font-size: 11pt;
+  margin: 430px 130px;
+  transition: 1s;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  color: black;
+      &::before{
+      content: "";
+      width: 190px;
+      height: 40px;
+      margin-top: -11px;
+      margin-left: -250px;
+      background: white;
+      position: absolute;
+      transition: 1;
+      z-index: -1;
+      }
+      &::after{
+      content: "";
+      width: 190px;
+      height: 40px;
+      margin-top: -11px;
+      margin-left: 60px;
+      background: white;
+      position: absolute;
+      transition: 1;
+      z-index: -1;
+      }
+      &:hover::after{
+        margin-left: -180px;
+        transition: 1s;
+      }
+      &:hover::before{
+        margin-left: -10px;
+        transition: 1s;
+      }
+      &:hover{
+        color: #4bd8cd;
+        border-left: none;
+        border-right: none;
+      }
+}
+
+.main_discription_top_right_shoes{
+  width: 680px;
+  height: 270px;
+  background-image: url(../img/shoe_second.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:0 0px;
+  float: right;
+  margin-top: 40px;
+    .main_discription_top_right_shoes_button{
+      outline: none;
+      width: 190px;
+      height: 60px;
+      background: white;
+      border: 3px solid #ff7373;
+      color: #ff7373;
+      font-family: 'TruenoBd';
+      font-size: 11pt;
+      margin: 50px 50px;
+      transition: 1s;
+      position: relative;
+      z-index: 10;
+      // overflow: hidden;
+          &::before{
+          content: "";
+          width: 250px;
+          height: 60px;
+          margin-top: -20px;
+          margin-left: -300px;
+          background: #ff7373;
+          position: absolute;
+          transition: 1;
+          z-index: -1;
+          }
+          &::after{
+          content: "";
+          width: 250px;
+          height: 60px;
+          margin-top: -20px;
+          margin-left: 50px;
+          background: #ff7373;
+          position: absolute;
+          transition: 1;
+          z-index: -1;
+          }
+          &:hover::after{
+            margin-top: -20px;
+            margin-left: -200px;
+            transition: 1s;
+          }
+          &:hover::before{
+            margin-top: -20px;
+            margin-left: -50px;
+            transition: 1s;
+          }
+          &:hover{
+            color: white;
+          }
+
+    }
+}
