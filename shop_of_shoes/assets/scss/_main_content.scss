@@ -1,45 +1,48 @@
-.clearfix{
+.clearfix {
   float: none;
   clear: both;
 }
 
-.main_discription{
+.main_discription {
   height: 1900px;
 }
-.main_discription{
+
+.main_discription {
   width: 1200px;
   height: 1000px;
-  margin: auto;
-  margin-top: 650px;
+  margin: 650px auto auto;
 }
-.main_discription_top_left_shoes{
+
+.main_discription_top_left_shoes {
   width: 540px;
   height: 585px;
-  background-image: url(../img/shoe_third_2.png);
+  background-image: url("../img/shoe_third_2.png");
   background-repeat: no-repeat;
   margin-top: 70px;
   position: relative;
   float: left;
   z-index: 10;
-  .main_discription_top_left_shoes_add{
+
+  .main_discription_top_left_shoes_add {
     width: 25px;
     height: 70px;
-    background-image: url(../img/shoe_third_add.png);
-    background-position: 10px 0px;
+    background-image: url("../img/shoe_third_add.png");
+    background-position: 10px 0;
     position: absolute;
     margin-top: 260px;
     margin-left: -25px;
     z-index: 1;
   }
 }
-.main_discription_top_left_shoes_button{
+
+.main_discription_top_left_shoes_button {
   outline: none;
   width: 250px;
   height: 50px;
   background: white;
   border: 1px solid #4bd8cd;
   color: white;
-  background:#4bd8cd;
+  background: #4bd8cd;
   font-family: 'TruenoBd';
   font-size: 11pt;
   margin: 430px 130px;
@@ -49,178 +52,231 @@
   overflow: hidden;
   color: black;
   cursor: pointer;
-      &::before{
-      content: "";
-      width: 190px;
-      height: 40px;
-      margin-top: -11px;
-      margin-left: -250px;
-      background: white;
-      position: absolute;
-      transition: 1;
-      z-index: -1;
-      }
-      &::after{
-      content: "";
-      width: 190px;
-      height: 40px;
-      margin-top: -11px;
-      margin-left: 60px;
-      background: white;
-      position: absolute;
-      transition: 1;
-      z-index: -1;
-      }
-      &:hover::after{
-        margin-left: -180px;
-        transition: 1s;
-      }
-      &:hover::before{
-        margin-left: -10px;
-        transition: 1s;
-      }
-      &:hover{
-        color: #4bd8cd;
-        border-left: none;
-        border-right: none;
-      }
+
+  &::before {
+    content: "";
+    width: 190px;
+    height: 40px;
+    margin-top: -11px;
+    margin-left: -250px;
+    background: white;
+    position: absolute;
+    transition: 1;
+    z-index: -1;
+  }
+
+  &::after {
+    content: "";
+    width: 190px;
+    height: 40px;
+    margin-top: -11px;
+    margin-left: 60px;
+    background: white;
+    position: absolute;
+    transition: 1;
+    z-index: -1;
+  }
+
+  &:hover::after {
+    margin-left: -180px;
+    transition: 1s;
+  }
+
+  &:hover::before {
+    margin-left: -10px;
+    transition: 1s;
+  }
+
+  &:hover {
+    color: #4bd8cd;
+    border-left: none;
+    border-right: none;
+  }
 }
 
-.main_discription_top_right_shoes{
+.main_discription_top_right_shoes {
   width: 630px;
   height: 255px;
-  background-image: url(../img/shoe_second.png);
+  background-image: url("../img/shoe_second.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:0 0px;
+  background-position: 0 0;
   float: right;
   margin-top: 40px;
-    .main_discription_top_right_shoes_button{
-      outline: none;
-      width: 190px;
-      height: 60px;
-      background: #623232;
-      // opacity: 0.2;
-      // border: 3px solid #ff7373;
-      color: #fff;
-      font-family: 'TruenoBd';
-      font-size: 11pt;
-      margin: 170px 290px;
-      transition: 1s;
-      position: relative;
-      z-index: 10;
-      border: none;
-      overflow: hidden;
-      cursor: pointer;
-          &::before{
-          content: "";
-          width: 200px;
-          height: 65px;
-          margin-top: -89px;
-          margin-left: -60px;
-          background: white;
-          position: absolute;
-          opacity: 0.2;
-          transition: 1;
-          z-index: -1;
-          }
-          &::after{
-          content: "";
-          width: 200px;
-          height: 63px;
-          opacity: 0.2;
-          margin-top: 40px;
-          margin-left: -135px;
-          background: white;
-          position: absolute;
-          transition: 1;
-          z-index: -1;
-          }
-          &:hover::after{
-            margin-top: -23px;
-            margin-left: -135px;
-            transition: 1s;
-          }
-          &:hover::before{
-            margin-top: -25px;
-            margin-left: -60px;
-            transition: 1s;
-          }
-          &:hover{
-            color: white;
-          }
 
+  .main_discription_top_right_shoes_button {
+    outline: none;
+    width: 190px;
+    height: 60px;
+    background: #623232;
+    // opacity: 0.2;
+    // border: 3px solid #ff7373;
+    color: #fff;
+    font-family: 'TruenoBd';
+    font-size: 11pt;
+    margin: 170px 290px;
+    transition: 1s;
+    position: absolute;
+    z-index: 10;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+
+    &::before {
+      content: "";
+      width: 200px;
+      height: 65px;
+      margin-top: -89px;
+      margin-left: -60px;
+      background: white;
+      position: absolute;
+      opacity: 0.2;
+      transition: 1;
+      z-index: -1;
     }
+
+    &::after {
+      content: "";
+      width: 200px;
+      height: 63px;
+      opacity: 0.2;
+      margin-top: 40px;
+      margin-left: -135px;
+      background: white;
+      position: absolute;
+      transition: 1;
+      z-index: -1;
+    }
+
+    &:hover::after {
+      margin-top: -23px;
+      margin-left: -135px;
+      transition: 1s;
+    }
+
+    &:hover::before {
+      margin-top: -25px;
+      margin-left: -60px;
+      transition: 1s;
+    }
+
+    &:hover {
+      color: white;
+    }
+  }
 }
 
 .main_discription_bottom_left_shoes,
-.main_discription_bottom_right_shoes{
+.main_discription_bottom_right_shoes {
   width: 295px;
   height: 295px;
   float: right;
   margin-top: 20px;
   margin-left: 20px;
-  background-image: url(../img/shoe_fift.png );
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.main_discription_bottom_right_shoes{
-  margin-left: 0px;
-  background-image: url(../img/shoe_fourth.png);
+  background-image: url("../img/shoe_fift.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
+.main_discription_bottom_right_shoes {
+  margin-left: 0;
+  background-image: url("../img/shoe_fourth.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
+.main_discription_box_shoes_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1200px;
+}
 
 .main_discription_box_shoes_one,
-.main_discription_box_shoes_two,
-.main_discription_box_shoes_three{
+.main_discription_box_shoes_three,
+.main_discription_box_shoes_two {
   width: 1200px;
   height: 1200px;
-  background: red;
-  // clear: both;
+  border: 1px solid gray;
+  clear: both;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   position: absolute;
   z-index: 2;
-  & .box_shoes{
+
+  & .box_shoes {
     width: 260px;
     height: 260px;
     border: 2px solid #c1beba;
     margin-top: 50px;
+    position: relative;
   }
 }
-.main_discription_box_shoes_two{
-  background: green;
+
+.main_discription_box_shoes_two {
+  background: white;
   z-index: 1;
 }
-.main_discription_box_shoes_three{
-  background: grey;
+
+.main_discription_box_shoes_three {
+  background: white;
   z-index: 2;
 }
 
-input{
+input {
   display: none;
 }
 
-label{
-  width: 50px;
+label {
+  cursor: pointer;
+  font-family: 'TruenoLt';
+  padding: 10px 40px;
   text-align: center;
   display: inline-block;
   font-size: 21pt;
-  background: yellow;
   margin: auto;
+  color: #bdb9b5;
 }
 
-#first:checked~.main_discription_box_shoes_one{
+.one {
+  margin-left: 300px;
+}
+
+#first:checked~.main_discription_box_shoes_one {
+  z-index: 11;
+  // background: red;
+}
+
+#first:checked~.one {
+  font-family: 'TruenoBd';
+  color: #623232;
+}
+
+#second:checked~.main_discription_box_shoes_two {
+  z-index: 11;
+  // background: green;
+}
+
+#second:checked~.two {
+  font-family: 'TruenoBd';
+  color: #623232;
+  // background: green;
+}
+
+#third:checked~.main_discription_box_shoes_three {
   z-index: 11;
 }
 
-#second:checked~.main_discription_box_shoes_two{
-  z-index: 11;
+#third:checked~.three {
+  font-family: 'TruenoBd';
+  color: #623232;
+}
+// BOX_SHOES
+.--box_shoes_1 {
+  background-image: url("../img/shoe_item_1.png");
+  background-repeat: no-repeat;
+  background-position: 10px 0;
 }
 
-#three:checked~.main_discription_box_shoes_three{
-  z-index: 11;
-}
+.box_shoes_first_price {}
+// BOX_SHOES
