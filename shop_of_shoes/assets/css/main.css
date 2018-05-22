@@ -359,15 +359,21 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  z-index: 2; }
+  z-index: 2;
+  background: #fff; }
   .main_discription_box_shoes_one .box_shoes,
   .main_discription_box_shoes_three .box_shoes,
   .main_discription_box_shoes_two .box_shoes {
     width: 260px;
-    height: 260px;
+    height: 330px;
     border: 2px solid #c1beba;
     margin-top: 50px;
-    position: relative; }
+    position: relative;
+    font-family: 'TruenoLt';
+    color: #8a8784;
+    background-size: 230px 230px;
+    background-repeat: no-repeat;
+    background-position: 10px 35px; }
 
 .main_discription_box_shoes_two {
   background: white;
@@ -415,8 +421,57 @@ label {
   color: #623232; }
 
 .--box_shoes_1 {
-  background-image: url("../img/shoe_item_1.png");
-  background-repeat: no-repeat;
-  background-position: 10px 0; }
+  background-image: url("../img/shoe_item_1.png"); }
+
+.--box_shoes_2 {
+  background-image: url("../img/shoe_item_2.png"); }
+
+.--box_shoes_3 {
+  background-image: url("../img/shoe_item_3.png"); }
+
+.--box_shoes_4 {
+  background-image: url("../img/shoe_item_4.png"); }
+
+.--box_shoes_5 {
+  background-image: url("../img/shoe_item_5.png") !important; }
+
+.--box_shoes_6 {
+  background-image: url("../img/shoe_item_6.png") !important; }
+
+.--box_shoes_7 {
+  background-image: url("../img/shoe_item_7.png") !important; }
+
+.--box_shoes_8 {
+  background-image: url("../img/shoe_item_8.png") !important; }
+
+.box_shoes_first_price {
+  color: #ff9898;
+  font-size: 15pt;
+  margin: 20px 0px 0px 20px; }
+
+.box_shoes_second_price {
+  font-size: 12pt;
+  margin: 5px 20px; }
+
+.box_shoes_third_price {
+  font-family: 'TruenoBd';
+  margin: 170px 0 0 10px; }
+
+.box_shoes_fourth_price {
+  margin: 5px 0 0 10px;
+  line-height: 20px; }
+
+.box_shoes_fifth_price {
+  margin: 10px 0 0 10px;
+  color: #c6c2bf;
+  font-size: 10pt; }
+
+.box_shoes_box_sale {
+  padding: 10px;
+  color: white;
+  background: #ff7373;
+  position: absolute;
+  top: 20px;
+  right: 0px; }
 
 /*# sourceMappingURL=main.css.map */
