@@ -353,8 +353,7 @@
 .main_discription_box_shoes_three,
 .main_discription_box_shoes_two {
   width: 1200px;
-  height: 1200px;
-  border: 1px solid gray;
+  height: 800px;
   clear: both;
   display: flex;
   flex-direction: column;
@@ -451,11 +450,12 @@ label {
 
 .box_shoes_second_price {
   font-size: 12pt;
-  margin: 5px 20px; }
+  margin: 5px 20px;
+  text-decoration: line-through; }
 
 .box_shoes_third_price {
   font-family: 'TruenoBd';
-  margin: 170px 0 0 10px; }
+  margin: 180px 0 0 10px; }
 
 .box_shoes_fourth_price {
   margin: 5px 0 0 10px;
@@ -473,5 +473,142 @@ label {
   position: absolute;
   top: 20px;
   right: 0px; }
+
+.--box_shoes_first_price_gray {
+  color: #c6c2bf; }
+
+.--box_shoes_second_price_transparent {
+  color: transparent; }
+
+.main_discription_box_brands {
+  width: 1200px;
+  height: 190px;
+  position: relative;
+  margin-top: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .main_discription_box_brands .box_brands {
+    width: 170px;
+    height: 170px;
+    margin-top: 10px;
+    background-image: url(../img/sprite_brands.png);
+    background-repeat: no-repeat; }
+  .main_discription_box_brands .--box_brands_1 {
+    background-position: 35px 25px; }
+  .main_discription_box_brands .--box_brands_2 {
+    background-position: -120px 30px; }
+  .main_discription_box_brands .--box_brands_3 {
+    background-position: -300px 30px; }
+  .main_discription_box_brands .--box_brands_4 {
+    background-position: -480px 30px; }
+  .main_discription_box_brands .--box_brands_5 {
+    background-position: -670px 30px; }
+  .main_discription_box_brands .--box_brands_6 {
+    background-position: -850px 30px; }
+
+.comments_box {
+  width: 100%;
+  height: 600px;
+  margin-top: 730px;
+  background-image: url("../img/bg_posts.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1; }
+  @media screen and (max-width: 1200px) {
+    .comments_box {
+      width: 1200px; } }
+  .comments_box .comments_box_wrap {
+    width: 100%;
+    height: inherit;
+    background: #623232;
+    opacity: 0.8;
+    z-index: 10;
+    position: relative; }
+
+.comments_box_post {
+  width: 700px;
+  height: 200px;
+  position: relative;
+  margin: auto;
+  margin-top: -520px;
+  z-index: 100;
+  display: flex;
+  justify-content: space-around; }
+  .comments_box_post .comments_box_post_face {
+    width: 170px;
+    height: 200px;
+    cursor: pointer;
+    transition: 1s; }
+    .comments_box_post .comments_box_post_face .post_face_item {
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      border: 1px solid white;
+      margin-left: 30px;
+      background-image: url(../img/post_1.png);
+      background-size: cover; }
+    .comments_box_post .comments_box_post_face .post_face_text {
+      font-family: 'myriadpro-regular';
+      font-size: 15pt;
+      text-align: center;
+      margin-top: 30px;
+      color: white; }
+    .comments_box_post .comments_box_post_face .post_face_stars {
+      width: 150px;
+      height: 30px;
+      background-image: url(../img/stars.png);
+      background-position: 20px 5px;
+      background-repeat: no-repeat; }
+    .comments_box_post .comments_box_post_face .comments_box_post_face_text {
+      width: 1100px;
+      height: 200px;
+      background-image: url(../img/bg_posts_comment.png);
+      background-repeat: repeat-x;
+      background-position: 150px 20px;
+      position: absolute;
+      margin: 70px 0px 0px -220px;
+      transition: 1s;
+      overflow: hidden; }
+      .comments_box_post .comments_box_post_face .comments_box_post_face_text .face_text {
+        font-family: 'myriadpro-regular';
+        font-size: 16pt;
+        line-height: 30px;
+        color: white;
+        text-align: center;
+        margin: 40px;
+        margin-top: 50px; }
+
+.corner {
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  overflow: hidden;
+  margin: -220px 275px; }
+  .corner .corner_box {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/bg_posts_comment.png);
+    transform: rotate(45deg);
+    margin: 15px 10px; }
+
+.--comments_box_post_face_first:hover > .comments_box_post_face_text {
+  display: block;
+  height: 200px;
+  margin-top: 50px !important; }
+
+.--comments_box_post_face_second {
+  background-image: url(../img/man.png) !important; }
+
+.--comments_box_post_face_third {
+  background-image: url(../img/woman.png) !important; }
+
+.--post_face_stars_second {
+  background-image: url(../img/stars_2.png) !important; }
+
+.--post_face_stars_third {
+  background-image: url(../img/stars_3.png) !important; }
 
 /*# sourceMappingURL=main.css.map */

@@ -196,8 +196,8 @@
 .main_discription_box_shoes_three,
 .main_discription_box_shoes_two {
   width: 1200px;
-  height: 1200px;
-  border: 1px solid gray;
+  height: 800px;
+  // border: 1px solid gray;
   clear: both;
   display: flex;
   flex-direction: column;
@@ -320,10 +320,11 @@ label {
 .box_shoes_second_price{
   font-size: 12pt;
   margin: 5px 20px;
+  text-decoration: line-through;
 }
 .box_shoes_third_price{
   font-family: 'TruenoBd';
-  margin: 170px 0 0 10px;
+  margin: 180px 0 0 10px;
 }
 .box_shoes_fourth_price{
   margin: 5px 0 0 10px;
@@ -342,5 +343,45 @@ label {
   top: 20px;
   right: 0px;
 }
-
+.--box_shoes_first_price_gray{
+  color: #c6c2bf;
+}
+.--box_shoes_second_price_transparent{
+  color: transparent;
+}
 // BOX_SHOES
+
+.main_discription_box_brands{
+  width: 1200px;
+  height: 190px;
+  position: relative;
+  margin-top: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  & .box_brands{
+    width: 170px;
+    height: 170px;
+    margin-top: 10px;
+    background-image: url(../img/sprite_brands.png);
+    background-repeat: no-repeat;
+  }
+  & .--box_brands_1{
+    background-position: 35px 25px;
+  }
+  & .--box_brands_2{
+    background-position: -120px 30px;
+  }
+  & .--box_brands_3{
+    background-position: -300px 30px;
+  }
+  & .--box_brands_4{
+    background-position: -480px 30px;
+  }
+  & .--box_brands_5{
+    background-position: -670px 30px;
+  }
+  & .--box_brands_6{
+    background-position: -850px 30px;
+  }
+}
