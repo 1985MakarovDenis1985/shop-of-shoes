@@ -22,7 +22,12 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face{
+    font-family: 'TruenoLt';
+    src: url('../fonts/trueno/TruenoLt.otf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 @import "header_nav";
@@ -30,6 +35,7 @@
 @import "main_content";
 @import "posts";
 @import "under_posts";
+@import "footer";
 
 
 $copinc: #ff7373;
